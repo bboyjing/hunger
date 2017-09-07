@@ -1,0 +1,5 @@
+upstream real_server {
+    {{range service "dev.real_server@dc1"}}
+        server {{.Address}}:{{.Port}};
+    {{end}}
+}
