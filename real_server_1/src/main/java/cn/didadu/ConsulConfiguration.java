@@ -13,7 +13,7 @@ import javax.annotation.PostConstruct;
  * Created by zhangjing on 2017/9/5.
  */
 
-@Configuration
+//@Configuration
 public class ConsulConfiguration {
     @Value("${server.port}")
     private int port;
