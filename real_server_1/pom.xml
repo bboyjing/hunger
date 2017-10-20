@@ -54,6 +54,14 @@
             <artifactId>hystrix-core</artifactId>
             <version>1.5.13</version>
         </dependency>
+
+        <!-- google -->
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>23.0</version>
+        </dependency>
+
     </dependencies>
 
     <build>
